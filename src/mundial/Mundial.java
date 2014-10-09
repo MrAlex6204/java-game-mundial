@@ -107,10 +107,12 @@ public class Mundial {
                 case 0://Iniciar juego;
                     int aleatorio = 0;                   
                     
+                    
                     Mundial.respuestasCorrectas = 0;
                     Mundial.respuestasIncorrectas = 0;
                     Mundial.totalContestadas = 0;
                     Mundial.puntosPorRespuesta = 10;
+                    
                     
                     do{
                      //Seleccionamos un numero del 1 al 10 al azar
@@ -159,7 +161,7 @@ public class Mundial {
                     salirDelJuego = true;
                     break;
             }
-           
+            
         }
         
     }
